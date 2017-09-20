@@ -67,7 +67,7 @@ body {
 
 .bg-main-img {
   display:block;
-  background-image: url('https://www.scdn.co/i/home/segmented-home/premium_dancer.png');
+  background-image: url('../img/dancer.png');
   background-repeat: no-repeat;
   background-position:button;
   width: 100%;
