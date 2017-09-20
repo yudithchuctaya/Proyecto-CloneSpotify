@@ -1,7 +1,7 @@
 
-/**{
+*{
   outline: 2px solid yellow;
-}*/
+}
 
 @font-face {
   font-family: Circular;
@@ -67,7 +67,7 @@ body {
 
 .bg-main-img {
   display:block;
-  background-image: url('../img/dancer.png');
+  /*background-image: url('../img/dancer.png');*/
   background-repeat: no-repeat;
   background-position:button;
   width: 100%;
@@ -266,6 +266,9 @@ h3 {
   padding-left: 14px;
   color: #7c25f8;
 }
+.jumbotron #blanco{
+  color: white;
+}
 
 .jumbotron-devices .device-list li:last-child:after {
   content: '';
@@ -306,6 +309,7 @@ h3 {
 .month {
   font-size: 20px;
 }
+
 
 .details-subscriptions {
   border: 1px solid white;
@@ -353,17 +357,19 @@ p.legal a:hover {
 }
 
 .nexus {
-  width: 458px;
-  height: 873px;
+  width: 400px;
+  height: 800px;
   padding: 60px 24px 0 18px;
   background: url('../img/large.png') no-repeat;
   background-size: cover;
   margin-bottom: -50%;
+  margin-left:-30%;
 }
 
 .nexus img {
   max-width: 100%;
 }
+
 
 
 /*********************footer*/
