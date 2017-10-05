@@ -78,9 +78,7 @@ body {
 
 
 
-.text-white {
-  color: white;
-}
+
 
 /***********adicion al contenido con dos columnas*/
 
@@ -93,13 +91,13 @@ body {
 }
 
 .jumbotron {
-/*  height: 93vh;*/
   background: none;
   padding: 100px 0;
   text-align: center;
   margin: 0;
   position: relative;
   overflow: hidden;
+  margin-top: 28px;
 }
 .jumbotron2{
   margin-top: 0px;
@@ -273,6 +271,7 @@ h3 {
   margin-left: -5px;
   text-transform: uppercase;
   font-weight: 700;
+  text-decoration: none;
 }
 
 .jumbotron-devices .device-list li {
@@ -280,12 +279,13 @@ h3 {
   padding-left: 5px;
   padding-right: 5px;
   margin: 1em 0;
+  text-decoration: none;
   
 }
-/*.jumbotron-devices .text-white  {
+.jumbotron-devices .device-list ul {
+ text-decoration: none;
+}
 
-  color: black;
-}*/
 
 .jumbotron-devices .device-list li:after {
   content: '-';
@@ -304,6 +304,9 @@ h3 {
 #bloCk{
   background:white;
 
+}
+.text-white {
+  color: white;
 }
 /*----------------*/
 
@@ -390,6 +393,8 @@ p.legal a:hover {
 
 .nexus img {
   max-width: 100%;
+  margin-left: 11px;
+  margin-top: 10px;
 }
 
 
